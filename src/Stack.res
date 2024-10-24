@@ -190,6 +190,7 @@ module type NavigatorModule = {
     let make: (
       ~navigationKey: string=?,
       ~screenOptions: screenOptionsParams => options=?,
+      ~children: React.element,
     ) => React.element
   }
 }
